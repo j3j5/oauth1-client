@@ -1,6 +1,6 @@
 {
-    "name": "league/oauth1-client",
-    "description": "OAuth 1.0 Client Library",
+    "name": "j3j5/oauth1-client",
+    "description": "OAuth 1.0 Client Library (with updated guzzle)",
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
@@ -42,5 +42,8 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
+    },
+    "replace": {
+        "league/oauth1-client":"1.*"
     }
 }
